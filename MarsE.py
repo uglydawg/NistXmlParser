@@ -8,15 +8,35 @@ from pprint import pprint
 nistControls = dict()
 
 def parse():
-    workbook = openpyxl.load_workbook('MARS-E 2 0 Detailed Delta Table Final Version 02-11-2016.xlsx')
+    workbook = openpyxl.load_workbook('NIST Control Baseline.xlsx')
 
-    sheet = workbook.get_sheet_by_name('Security Controls')
+    sheet = workbook.get_sheet_by_name('Control Baseline')
 
-    for row in range(9, 392):
-        rowValue = sheet['B' + str(row)].value
-        if rowValue == '' or rowValue == None or rowValue.startswith("Total"): 
+    for row in range(3, 279):
+        controlNum = rowValue = sheet['A' + str(row)].value
+
+        if not '-' in str(controlNum):
             continue
 
-        nistControls[rowValue] = '1'
+        rowValue = sheet['G' + str(row)].value
+
+        if rowValue == "Not Selected" or rowValue == None:
+            continue
+
+        if ',' in str(rowValue):
+            split = rowValue.split(",")
+
+            nistControls[controlNum] = '1'
+            print (controlNum)
+
+            for s in split:
+                nistControls[controlNum + ' ('+str(s).rstrip()+')'] = '1'
+
+                print (controlNum + ' ('+str(s).rstrip()+')')
+
+        else:
+            nistControls[controlNum] = '1'
+            print (controlNum)
+
 
 parse()
