@@ -23,14 +23,19 @@ def parse():
         if rowValue == "Not Selected" or rowValue == None:
             continue
 
-        if ',' in str(rowValue):
+        rowValue = str(rowValue)
+
+        if len(rowValue) > 0 and ',' not in rowValue:
+            rowValue = rowValue + ','
+
+        if ',' in rowValue:
             split = rowValue.split(",")
 
             nistControls[controlNum] = '1'
             print (controlNum)
 
             for s in split:
-                nistControls[controlNum + ' ('+str(s).rstrip()+')'] = '1'
+                nistControls[controlNum + '('+str(s).rstrip()+')'] = '1'
 
                 print (controlNum + ' ('+str(s).rstrip()+')')
 
