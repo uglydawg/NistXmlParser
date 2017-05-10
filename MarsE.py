@@ -20,7 +20,7 @@ def parse():
 
         rowValue = sheet['G' + str(row)].value
 
-        if rowValue == "Not Selected" or rowValue == None:
+        if rowValue == "Not Selected":
             continue
 
         rowValue = str(rowValue)
