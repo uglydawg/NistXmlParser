@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <controls:controls xmlns="http://scap.nist.gov/schema/sp800-53/2.0"
     xmlns:controls="http://scap.nist.gov/schema/sp800-53/feed/2.0"
     xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8613,6 +8613,17 @@ Physical and technical safeguards for media are commensurate with the security c
         </control-enhancements>
     </controls:control>
     <controls:control>
+        <family>MEDIA PROTECTION</family>
+        <number>MP-CMS-1</number>
+        <title>MEDIA RELATED RECORDS</title>
+        <statement>
+            <description>Inventory and disposition records for information system media shall be maintained to ensure control and accountability of sensitive information. The media-related records shall contain sufficient information to reconstruct the data in the event of a breach.</description>
+        </statement>
+        <supplemental-guidance>
+            <description>The organization employs a hash function (a reproducible method of turning inventory data into a relatively small number, which may serve as a digital "fingerprint" of the data) for electronic inventory records maintenance to validate, During investigation of a possible breach, whether the inventory information is free from tampering prior to reconstructive events.</description>
+        </supplemental-guidance>
+    </controls:control>
+    <controls:control>
         <family>PHYSICAL AND ENVIRONMENTAL PROTECTION</family>
         <number>PE-1</number>
         <title>PHYSICAL AND ENVIRONMENTAL PROTECTION POLICY AND PROCEDURES</title>
@@ -14489,6 +14500,33 @@ Assurance is also based on the assessment of evidence produced during the system
             <related>SC-25</related>
             <related>SC-26</related>
             <related>SC-30</related>
+        </supplemental-guidance>
+    </controls:control>
+    <controls:control>
+        <family>SYSTEM AND COMMUNICATIONS PROTECTION</family>
+        <number>SC-ACA-1</number>
+        <title>ELECTRONIC MAIL</title>
+        <statement>
+            <description>Controls shall be implemented to protect sensitive information that is sent via email.</description>
+        </statement>
+        <supplemental-guidance>
+            <description>Recommended security practices for handling sensitive information via e-mail can be found in NIST SP 800-45 (as amended), Guidelines on Electronic Mail Security.</description>
+        </supplemental-guidance>
+    </controls:control>
+    <controls:control>
+        <family>SYSTEM AND COMMUNICATIONS PROTECTION</family>
+        <number>SC-ACA-2</number>
+        <title>FAX USAGE</title>
+        <statement>
+            <description>If Personally Identifiable Information (PII) is allowed to be included with fax communications, the organization establishes policies and procedures for handling fax transmissions. The organization must follow specific precautions and Implementation Standards when performing fax transmission of PII:</description>
+        </statement>
+        <statement>
+            <number>SC-ACA-2a.</number>
+            <description>Transmit PII only to an authorized recipient</description>
+        </statement>
+        <supplemental-guidance>
+            <description>Do not send PII over FAX unless it cannot be sent over other, more secure, channels, i.e., delivery by hand, secure email, etc.</description>
+            <related>PE-5</related>
         </supplemental-guidance>
     </controls:control>
     <controls:control>
