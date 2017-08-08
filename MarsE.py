@@ -32,12 +32,12 @@ def parse():
             split = rowValue.split(",")
 
             nistControls[controlNum] = '1'
-            print (controlNum)
+            #print (controlNum)
 
             for s in split:
                 nistControls[controlNum + '('+str(s).rstrip()+')'] = '1'
 
-                print (controlNum + ' ('+str(s).rstrip()+')')
+                #print (controlNum + ' ('+str(s).rstrip()+')')
 
         else:
             nistControls[controlNum] = '1'

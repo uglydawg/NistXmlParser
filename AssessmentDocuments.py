@@ -12,7 +12,10 @@ columns = {
     '#' : 'B',
     'Title' : 'C',
     'Method' : 'D',
-    'Documents' : 'E',
+    'Test Objective' : 'E',
+    'Results' : 'F',
+    'Assessment' : 'G',
+    'Recommendation' : 'H',
 }
 
 workbook = openpyxl.Workbook()
