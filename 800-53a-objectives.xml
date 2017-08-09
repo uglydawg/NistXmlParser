@@ -37339,14 +37339,20 @@
     </controls:control>
     <controls:control>
       <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
+      <number>AR-2</number>
+      <title>Privacy Impact and Risk Assessment</title>
       <objective>
         <decision>The organization:</decision>
         <objective>
-          <number>AR-1(a)</number>
+          <number>AR-2[1]</number>
           <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
+            Documents and implements a privacy risk management process that assesses privacy risk to individuals resulting from the collection, storage, sharing, transmitting, use, and disposal of PII; and
+          </decision>
+        </objective>
+        <objective>
+          <number>AR-2[2]</number>
+          <decision>
+            Conducts privacy impact assessments for information systems, programs, and other AE activities that pose a risk to the privacy of PII.
           </decision>
         </objective>
       </objective>
@@ -37359,16 +37365,17 @@
         </potential-assessment>
       </potential-assessments>
     </controls:control>
+
+    <!-- TEMPLATE -->
     <controls:control>
-      <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
+      <family>CONTROL FAMILY</family>
+      <number>CONTROL NUMBER</number>
+      <title>CONTROL TITLE</title>
       <objective>
         <decision>The organization:</decision>
         <objective>
-          <number>AR-1(a)</number>
+          <number>AR-11[]]</number>
           <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
           </decision>
         </objective>
       </objective>
@@ -37381,115 +37388,4 @@
         </potential-assessment>
       </potential-assessments>
     </controls:control>
-    <controls:control>
-      <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
-      <objective>
-        <decision>The organization:</decision>
-        <objective>
-          <number>AR-1(a)</number>
-          <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
-          </decision>
-        </objective>
-      </objective>
-      <potential-assessments>
-        <potential-assessment method="EXAMINE">
-        </potential-assessment>
-        <potential-assessment method="INTERVIEW">
-        </potential-assessment>
-        <potential-assessment method="TEST">
-        </potential-assessment>
-      </potential-assessments>
-    </controls:control>
-    <controls:control>
-      <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
-      <objective>
-        <decision>The organization:</decision>
-        <objective>
-          <number>AR-1(a)</number>
-          <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
-          </decision>
-        </objective>
-      </objective>
-      <potential-assessments>
-        <potential-assessment method="EXAMINE">
-        </potential-assessment>
-        <potential-assessment method="INTERVIEW">
-        </potential-assessment>
-        <potential-assessment method="TEST">
-        </potential-assessment>
-      </potential-assessments>
-    </controls:control>
-    <controls:control>
-      <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
-      <objective>
-        <decision>The organization:</decision>
-        <objective>
-          <number>AR-1(a)</number>
-          <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
-          </decision>
-        </objective>
-      </objective>
-      <potential-assessments>
-        <potential-assessment method="EXAMINE">
-        </potential-assessment>
-        <potential-assessment method="INTERVIEW">
-        </potential-assessment>
-        <potential-assessment method="TEST">
-        </potential-assessment>
-      </potential-assessments>
-    </controls:control>
-    <controls:control>
-      <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
-      <objective>
-        <decision>The organization:</decision>
-        <objective>
-          <number>AR-1(a)</number>
-          <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
-          </decision>
-        </objective>
-      </objective>
-      <potential-assessments>
-        <potential-assessment method="EXAMINE">
-        </potential-assessment>
-        <potential-assessment method="INTERVIEW">
-        </potential-assessment>
-        <potential-assessment method="TEST">
-        </potential-assessment>
-      </potential-assessments>
-    </controls:control>
-    <controls:control>
-      <family>ACCOUNTABILITY, AUDIT AND RISK MANAGEMENT</family>
-      <number>AR-1</number>
-      <title>Governance and Privacy Program</title>
-      <objective>
-        <decision>The organization:</decision>
-        <objective>
-          <number>AR-1(a)</number>
-          <decision>
-            Appoints a designated privacy official accountable for developing, implementing, and maintaining an AE governance and privacy program to ensure compliance with all applicable laws and regulations regarding the collection, use, maintenance, sharing, and disposal of PII by programs and information systems;
-          </decision>
-        </objective>
-      </objective>
-      <potential-assessments>
-        <potential-assessment method="EXAMINE">
-        </potential-assessment>
-        <potential-assessment method="INTERVIEW">
-        </potential-assessment>
-        <potential-assessment method="TEST">
-        </potential-assessment>
-      </potential-assessments>
-    </controls:control>
-  </controls:control>
 </controls:controls>
